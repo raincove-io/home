@@ -18,7 +18,7 @@
      id="style2">
 #logo-fade{
 opacity: 0;
-animation: fadeIn 4s ease-in forwards infinite;
+animation: fadeIn 4s ease-in forwards;
 }
 
 @keyframes fadeIn { 0% { opacity:0; } 50% { opacity:0; } 100% { opacity:1; } }
@@ -28,7 +28,7 @@ animation: fadeIn 4s ease-in forwards infinite;
 opacity: 1;
 stroke-dasharray: 2000;
 stroke-dashoffset: 2000;
-animation: dash 4s ease-in-out forwards infinite;
+animation: dash 4s ease-in-out forwards;
 }
 
 @keyframes dash {
@@ -46,8 +46,6 @@ animation: dash 4s ease-in-out forwards infinite;
   }
 }
 </style><path
-     stroke-linecap="round"
-     stroke-linejoin="round"
      stroke-width="4"
      stroke="#d5d7da"
      fill="none"
